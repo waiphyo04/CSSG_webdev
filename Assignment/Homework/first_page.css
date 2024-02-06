@@ -1,0 +1,65 @@
+
+
+.box1 {
+    border: 10px solid rgb(0, 169, 254);
+    color: rgb(0, 169, 254);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.container {
+    border: 2px solid rgb(0, 0, 0);
+    height: 10%; 
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.box2{
+    border: solid rgb(255, 255, 255);
+    display: flex;
+    height: 60%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.box3{
+    border: solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    padding: 20px
+}
+
+.subjectbox{
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 15%;
+    font-size: 20px;
+}
+
+.back_image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('unc_logo.png'); 
+    background-position: center;
+    opacity: 0.07; 
+}
+
+.back_image {
+    position: center; 
+}
+

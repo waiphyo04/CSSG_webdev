@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+    border: 5px solid black;
+}
+
+body{
+    height: 100%;
+    border: 2px solid green;
+}
+h1{
+    color: green;
+}
+
+.blue-text{
+    color: blue;
+}
+.red-text{
+    color: red;
+}
+
+.pink-text{
+    color: pink;
+}
+
+.container{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.box2{
+    border: 2px solid green;
+    height: 100%;
+    width: 50%;
+    
+
+}
